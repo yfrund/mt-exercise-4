@@ -82,6 +82,7 @@ model:
         hidden_size: 256
         ff_size: 512
         dropout: 0
+        layer_norm: "post"
     decoder:
         type: "transformer"
         num_layers: 1
@@ -93,3 +94,4 @@ model:
         hidden_size: 256
         ff_size: 512
         dropout: 0
+        layer_norm: "post"
