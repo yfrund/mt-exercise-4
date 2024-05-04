@@ -35,3 +35,7 @@ Train a model:
     ./scripts/train.sh
 
 The training process can be interrupted at any time, and the best checkpoint will always be saved. It is also possible to continue training from there later on.
+
+Visualize validation perplexity - create a table and a line chart:
+
+    visualize_ppl.py
